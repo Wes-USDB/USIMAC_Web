@@ -1,0 +1,49 @@
+Track as much of a book as possible
+Ability to enter custom book if not found in our DB
+List every parent book online
+	SAP
+	APH
+
+Four tiers
+	Parents
+	Teachers
+	Director's Assistant
+	Director
+
+Teacher
+	Teachers can only access Students
+	Teachers can create students
+	Can have additional shipping addresses
+	Teachers have Students
+
+Directors
+	Director includes Sp Ed Dir and assistants
+	Director can access summary information for their LEA
+	LEA contact is director
+	Directors have teachers
+
+Student Tracking	
+	First & Last Name
+	Student ID
+	School ID
+
+Difference between School and LEA
+	LEA is primary address
+	School is address for material shipping
+	LEA has a Director and 0 or more assistants
+	LEA tracks start date
+	
+Order - Saveable at any point
+	Submit Date (Document Date)
+	Post Date (Procurement Date)
+	Requested Date (defaults as student's LEA Start date)
+	Delivery Date
+	Statuses (order submitted, hard copy needed(USIMAC source), order received, producing, processing, finalizing, shipped, needs attention, cancelled)
+	Everything from sales order received crystal report
+	
+Notifications
+	Send cancel to Customer Service Email orders@usimac.org
+	Status Change, email upon Needs Attentions, Hard Copy Needed
+	
+	
+	
